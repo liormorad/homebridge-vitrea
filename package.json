@@ -1,16 +1,16 @@
 {
   "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
+  "displayName": "Vitrea homebridge plugin",
+  "name": "homebridge-vitrea",
   "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "description": "Homebrdige interface for Vitrea products - vitrea-sh.com",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "git://github.com/liormorad/homebridge-vitrea.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/liormorad/homebridge-vitrea/issues"
   },
   "engines": {
     "node": ">=14.18.1",
@@ -24,7 +24,7 @@
     "prepublishOnly": "npm run lint && npm run build"
   },
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-plugin","vitrea"
   ],
   "dependencies": {},
   "devDependencies": {
